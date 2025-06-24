@@ -31,7 +31,7 @@ plt.title('Ciclo das Quintas – 12-TET (Começando em Dó)', fontsize=14)
 plt.axis('equal')
 plt.grid(True)
 
-# ---- Reprodução das notas ----
+#Reprodução das notas
 for i, semitom in enumerate(semitons_ciclo):
     frequencia = f0 * (2 ** (semitom / 12))
     nota = notas[i]
